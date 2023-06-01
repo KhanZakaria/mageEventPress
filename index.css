@@ -21,7 +21,7 @@
   body {
     background-color: #f5f5f5;
   }
-  .container {
+  .mpe-new-container {
     max-width: 1200px;
     margin: auto;
   }
@@ -30,48 +30,8 @@
     color: var(--btn-hover-color);
   }
   
- 
-/* -------------- buttons design --------------- */
 
-/* .btn-primary{
-    color: var(--color-fill);
-    background-color: var(--secondary-color);
-    border-radius: 5px;
-    cursor: pointer;
-}
-.btn-primary a{
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 600;
-    font-size: var(--font-normal);
-    line-height: 20px;
-}
-.btn-primary :hover{
-    background-color: #6f5af8;
-}
-
-.btn-secondary{
-    color: var(--secondary-color);
-    background-color: transparent;
-    border: 1px solid var(--secondary-color);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-secondary a{
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: var(--font-normal);
-    line-height: 20px;
-}
-.btn-secondary:hover{
-    background-color: #6f5af8;
-} */
-
-
-
-.event h1{
+.mpe-new-event h1{
   font-family: 'Outfit', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -81,7 +41,7 @@ letter-spacing: 2px;
 color: #000000;
 }
 
-.event h2 {
+.mpe-new-event h2 {
   font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -92,26 +52,26 @@ color: #000000;
     color: #878787;
     
 }
-.event-meta {
+.mpe-new-event-meta {
     display: flex;
     align-items: center;
 }
-.event-meta .location , .time {
+.mpe-new-event-meta .mpe-new-location , .mpe-new-time {
     display: flex;
     width: 100%;
     align-items: center;
 }
-.event-meta .icon-holder{
+.mpe-new-event-meta .mpe-new-icon-holder{
     margin-right: 10px;
 }
 
-.event-meta .icon-holder img , .time img{
+.mpe-new-event-meta .mpe-new-icon-holder img , .mpe-new-time img{
     height: 22px;
     width: 22px;
     border-radius: 5px;
 }
 
-.event-meta .text-holder p {
+.mpe-new-event-meta .mpe-new-text-holder p {
  font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -124,42 +84,42 @@ color: #393332;
 
 /*------------ image section -------------*/
 
-.imageSection {
+.mpe-new-imageSection {
   display: flex;
   justify-content: space-between;
 }
-.imageSection .thubnail-big{
+.mpe-new-imageSection .mpe-new-thubnail-big{
   width: 70%;
 }
-.imageSection .side-thubnail{
+.mpe-new-imageSection .mpe-new-side-thubnail{
   width: 30%;
   display: flex;
   justify-content: space-evenly;
 }
-.imageSection .thubnail-big img{
+.mpe-new-imageSection .mpe-new-thubnail-big img{
   width: 100%;
 }
-.imageSection .side-thubnail ul {
+.mpe-new-imageSection .mpe-new-side-thubnail ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0px;
   padding-left: 20px;
 }
-.imageSection .side-thubnail img{
+.mpe-new-imageSection .mpe-new-side-thubnail img{
   width: 100%;
   
 }
 
 
 /*---------------- event description -----------------------*/
-.description-Section {
+.mpe-new-description-Section {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.description-Section h2 {
+.mpe-new-description-Section h2 {
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 600;
@@ -168,11 +128,11 @@ line-height: 40px;
 
 color: #001A26;
 }
-.event-desctiption{
+.mpe-new-event-desctiption{
   width: 65%;
   margin-right: 30px;
 }
-.event-desctiption p {
+.mpe-new-event-desctiption p {
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 300;
@@ -181,10 +141,10 @@ line-height: 170%;
 color: #8D8D8D;
 }
 
-.tp-form{ display: block;}
+.mpe-new-tp-form{ display: block;}
 
-.datepicker input[type=date] , 
-.timepicker input[type=time]{
+.mpe-new-datepicker input[type=date] , 
+.mpe-new-timepicker input[type=time]{
   width: 96%;
 border: 1px solid #6046FF;
 border-radius: 5px;
@@ -197,10 +157,10 @@ font-weight: 500;
 font-size: 20px;
 line-height: 25px;
 }
-.tp-form .datepicker input[type=date]{
+.tmpe-new-p-form .mpe-new-datepicker input[type=date]{
 color: #6046FF;
 }
-.tp-form .timepicker input[type=time]{
+.mpe-new-tp-form .mpe-new-timepicker input[type=time]{
 color: white;
 background-color: #6046FF;
 }
@@ -212,13 +172,13 @@ background-color: #6046FF;
 /*----------------------ticket ----------------------*/
 
 
-.ticket{
+.mpe-new-ticket{
   display: block;
   border:  2px solid #6046FF;
   border-radius: 5px;
   width: 100%;
 }
-.ticket-card{
+.mpe-new-ticket-card{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -226,13 +186,13 @@ background-color: #6046FF;
   padding: 20px;
   border-bottom: 3px solid #989898;
 }
-.ticket-card:last-child{
+.mpe-new-ticket-card:last-child{
   border-bottom: none;
 }
-.ticket-info{
+.mpe-new-ticket-info{
   width: 75%;
 }
-.ticket-info h3{
+.mpe-new-ticket-info h3{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 500;
@@ -241,7 +201,7 @@ line-height: 22px;
 text-transform: capitalize;
 color: #121212;
 }
-.ticket-info span{
+.mpe-new-ticket-info span{
   font-family: Outfit;
 font-size: 12px;
 font-weight: 400;
@@ -251,7 +211,7 @@ text-align: left;
 color: #FF2424;
 }
 
-.ticket-info p {
+.mpe-new-ticket-info p {
   font-family: Outfit;
 font-size: 12px;
 font-weight: 400;
@@ -261,11 +221,11 @@ text-align: left;
 color: #909090;
 
 }
-.ticket-price{
+.mpe-new-ticket-price{
   width: 25%;
   text-align: end;
 }
-.ticket-price .price {
+.mpe-new-ticket-price .price {
 font-family: Outfit;
 font-size: 31px;
 font-weight: 500;
@@ -274,25 +234,32 @@ letter-spacing: 0em;
 color: #525252;
 margin: 0px;
 }
-
-.buy-ticket button{
+.mpe-new-buy-ticket {
+  display: flex;
+  justify-content: end;
+}
+.mpe-new-buy-ticket button{
   border: none;
   color: white;
   padding: 5px 10px;
   outline: none;
   cursor: pointer;
 }
-.buy-ticket span{
-  padding-left:15px ;
-  padding-right: 15px;
+input.mpe-new-input-group-field {
+  width: 50px;
+  text-align: center;
 }
-
-.ticket-btns{
+.impe-new-nput-group-field::-webkit-inner-spin-button,
+.impe-new-nput-group-field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+.mpe-new-ticket-btns{
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
-.ticket-btns a{
+.mpe-new-ticket-btns a{
   text-decoration: none;
   font-family: Outfit;
   font-size: 19px;
@@ -302,12 +269,12 @@ margin: 0px;
   text-align: center;
   
 }
-.ticket-btns .totalPrice{
+.mpe-new-ticket-btns .mpe-new-totalPrice{
   border: 1px solid #6046FF;
   padding: 10px 40px;
 }
 
-.ticket-btns .register{
+.mpe-new-ticket-btns .mpe-new-register{
   border: 1px solid #6046FF;
   padding: 10px 40px;
   background-color: #6046FF;
@@ -316,15 +283,15 @@ margin: 0px;
 }
 /*-------------------------- Description sidebar -------------------------*/
 
-.description-sidebar{
+.mpe-new-description-sidebar{
   width: 35%;
 }
-.date-and-time-card{
+.mpe-new-date-and-time-card{
   display: flex;
   flex-direction: column;
 }
 
-.ww-card{
+.mpe-new-ww-card{
   display: flex;
   align-items: center;
   background: #FFFFFF;
@@ -333,23 +300,23 @@ padding: 20px;
 border-bottom: 1px solid rgb(209, 209, 209);
 }
 
-.ww-card .card-icon{
+.mpe-new-ww-card .mpe-new-card-icon{
   margin-right: 30px;
 }
 
-.ww-card .card-content .card-btn img{
+.mpe-new-ww-card .mpe-new-card-content .mpe-new-card-btn img{
   height: 22px;
   width: auto;
   margin-right: 15px;
 }
 
-.ww-card .card-content .card-btn button{
+.mpe-new-ww-card .mpe-new-card-content .mpe-new-card-btn button{
   border: 1px solid #6046FF;
   padding: 5px 16px;
   border-radius: 5px;
   background-color: white;
 }
-.ww-card .card-content .card-btn a {
+.mpe-new-ww-card .mpe-new-card-content .mpe-new-card-btn a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -361,31 +328,31 @@ border-bottom: 1px solid rgb(209, 209, 209);
 color: #6046FF;
 
 }
-.ww-social-card {
+.mpe-new-ww-social-card {
   background: #FFFFFF;
   box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.04);
   padding: 20px;
   border-bottom: 1px solid rgb(209, 209, 209);
 }
-.ww-social-card h2 {
+.mpe-new-ww-social-card h2 {
   text-align: center;
 }
-.ww-social-card ul{
+.mpe-new-ww-social-card ul{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.ww-social-card ul li{
+.mpe-new-ww-social-card ul li{
   padding-right: 10px;
 }
 
 
-.speaker{
+.mpe-new-speaker{
   margin-top: 130px;
 }
 
-.speaker-card{
+.mpe-new-speaker-card{
   display: flex;
   background-color: white;
   padding: 20px;
@@ -393,12 +360,12 @@ color: #6046FF;
   margin-bottom: 5px;
 }
 
-.speaker-card .speaker-image img{
+.mpe-new-speaker-card .mpe-new-speaker-image img{
   height: 80px;
   width: auto;
   margin-right: 25px;
 }
-.speaker-card .speaker-data h3{
+.mpe-new-speaker-card .mpe-new-speaker-data h3{
   font-family: Outfit;
 font-size: 24px;
 font-weight: 500;
@@ -407,7 +374,7 @@ text-align: left;
 color: #000000;
 }
 
-.speaker-card .speaker-data p {
+.mpe-new-speaker-card .mpe-new-speaker-data p {
   font-family: Outfit;
 font-size: 16px;
 font-weight: 400;
@@ -420,11 +387,11 @@ text-align: left;
 
 /*------------- Schedule Details -----------------------*/
 
-.schedule-details{
+.mpe-new-schedule-details{
   margin-bottom: 100px;
   margin-top: 50px;
 }
-.schedule-details p {
+.mpe-new-schedule-details p {
   font-family: Outfit;
 font-size: 23px;
 font-weight: 400;
@@ -433,7 +400,7 @@ text-align: left;
 color: #121212;
 line-height: 20px;
 }
-.schedule-details p span {
+.mpe-new-schedule-details p span {
   font-family: Outfit;
 font-size: 23px;
 font-weight: 400;
@@ -442,7 +409,7 @@ text-align: left;
 color: #6046FF;
 }
 
-.schedule-details .detailed-text{
+.mpe-new-schedule-details .mpe-new-detailed-text{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
@@ -451,7 +418,7 @@ text-transform: capitalize;
 color: #909090;
 }
 
-.sechule-container{
+.mpe-new-sechule-container{
   display: flex;
   flex-direction: column;
   background-color: #F2F0FF;
@@ -460,27 +427,27 @@ color: #909090;
   border-radius: 5px;
 }
 
-.schedules{
+.mpe-new-schedules{
   display: flex;
   position: relative;
 }
-.iconEffect::before {
+.mpe-new-iconEffect::before {
   content: " ";
   position: absolute;
   left: 30px;
   top: 60px;
-  height: 57px;
+  height: 90px;
   width: 10px;
   background: #D9D2FF;
 }
 
-.icon img{
+.mpe-new-icon img{
   margin-top: 15px;
 }
 
 
 /*----------- Map Location --------------*/
-.map-location h2{
+.mpe-new-map-location h2{
 font-family: 'Outfit';
 font-style: normal;
 font-weight: 600;
@@ -490,17 +457,17 @@ color: #001A26;
 margin-bottom: 20px;
 }
 
-.map iframe{
+.mpe-new-map iframe{
   border-radius: 5px;
 }
 
 
 /*----------- Faq Section  --------------*/
-.faq-section{
+.mpe-new-faq-section{
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.faqHeader{
+.mpe-new-faqHeader{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -508,7 +475,7 @@ margin-bottom: 20px;
   width: 60%;
   margin: auto;
 }
-.faq-section h2{
+.mpe-new-faq-section h2{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 600;
@@ -518,7 +485,7 @@ color: #001A26;
 margin-bottom: 20px;
 }
 
-.faq-section .faqHeader p{
+.mpe-new-faq-section .mpe-new-faqHeader p{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
@@ -528,48 +495,71 @@ color: #888888;
 text-align: center;
 }
 
-.faqs{
+.mpe-new-faqs{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.qustions {
-  display: flex;
-  flex-basis: 40%;
-  align-items: center;
-  background: white;
-  margin: 10px;
-  padding-left: 25px;
-  position: relative;
-  border-radius: 5px;
+.mpe-new-questions {
+  flex-basis: 48%;
+  margin: 5px;
 }
 
-.qustions p{
+.mpe-new-panel p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-transform: lowercase;
+color: #3a3a3a;
+}
+
+
+
+.mpe-new-accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 30px;
-text-align: center;
 text-transform: lowercase;
 color: #2C3C4D;
+
 }
-.qustions img{
-  position: absolute;
-  top: 45%;
-  right: 20px;
+
+.mpe-new-active, .mpe-new-accordion:hover {
+  background-color: #ccc;
+}
+
+.mpe-new-panel {
+  padding: 0 18px;
+  background-color: rgb(255, 255, 255);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 
 /*----------- Attendee Section  --------------*/
 
-.attendee{
+.mpe-new-attendee{
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.attendee h2{
+.mpe-new-attendee h2{
   font-family: 'Outfit';
   font-style: normal;
   font-weight: 600;
@@ -580,7 +570,7 @@ color: #2C3C4D;
 }
 
 
-.attende-container{
+.mpe-new-attende-container{
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -590,7 +580,7 @@ color: #2C3C4D;
   border-radius: 5px;
 }
 
-.attende-details{
+.mpe-new-attende-details{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -601,12 +591,12 @@ color: #2C3C4D;
   border-radius: 5px;
 }
 
-.attende-details img{
+.mpe-new-attende-details img{
   height: 77px;
   width: auto;
 }
 
-.attende-details p {
+.mpe-new-attende-details p {
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
@@ -619,12 +609,12 @@ color: #3F4145;
 
 
 /*----------- Related Events Section  --------------*/
-.related-events {
+.mpe-new-related-events {
   margin-top: 50px;
   margin-bottom: 50px;
   position: relative;
 }
-.related-events h2{
+.mpe-new-related-events h2{
   font-family: 'Outfit';
   font-style: normal;
   font-weight: 600;
@@ -634,7 +624,7 @@ color: #3F4145;
   margin-bottom: 20px;
 }
 
-.slider-btn {
+.mpe-new-slider-btn {
   display: flex;
   justify-content: end;
   /* margin-top: 50px; */
@@ -643,11 +633,11 @@ color: #3F4145;
   right: 10px;
 }
 
-.slider-btn button{
+.mpe-new-slider-btn button{
   margin-left: 10px;
 }
 
-.slider-btn .next-slide , .previous-slide {
+.mpe-new-slider-btn .mpe-new-next-slide , .mpe-new-previous-slide {
     height: 33px;
     width: auto;
     border: none;
@@ -659,35 +649,35 @@ color: #3F4145;
     /* display: block; */
 }
 
-.slider-btn .active {
+.mpe-new-slider-btn .mpe-new-active {
   background: #6046FF;
 }
-.slider-items{
+.mpe-new-slider-items{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-.related-items{
+.mpe-new-related-items{
   background-color: white;
   border-radius: 5px;
   width: 32%;
   box-shadow: 10px 9px 33px rgba(0, 0, 0, 0.03);
 }
 
-.related-items img {
+.mpe-new-related-items img {
   width: 100%;
   height: auto;
 }
 
-.related-items-row{
+.mpe-new-related-items-row{
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-.related-content h3{
+.mpe-new-related-content h3{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 600;
@@ -696,7 +686,7 @@ line-height: 0px;
 letter-spacing: 0.02em;
 color: #0F0F0F;
 }
-.related-content .events-place{
+.mpe-new-related-content .mpe-new-events-place{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
@@ -706,12 +696,12 @@ letter-spacing: 0.02em;
 color: #808184;
 }
 
-.related-item-price{
+.mpe-new-related-item-price{
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
-.related-item-price p{
+.mpe-new-related-item-price p{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 600;
@@ -721,7 +711,7 @@ color: #6046FF;
 margin: 0;
 }
 
-.related-item-price .price-category{
+.mpe-new-related-item-price .mpe-new-price-category{
   font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
@@ -731,6 +721,26 @@ text-transform: capitalize;
 color: #6D6D6D;
 text-align: right;
 }
+#owl-demo .item{
+  background: #ffffff;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: Left;
+}
+.owl-item{
+  background: transparent;
+}
+
+
+
+
+
+
+
+
 
   /*--------Xlg---------*/
   @media (max-width: 1400px) {}
@@ -739,219 +749,241 @@ text-align: right;
   @media (max-width: 1200px) {}
   /*--------md---------*/
   @media (max-width: 992px) {
-    .container {
+    .mpe-new-container {
       max-width: 992px;
       margin: auto;
       padding-left: 20px;
       padding-right: 20px;
     }
-    .qustions p{
+    .mpe-new-qustions p{
     font-size: 18px;
     line-height: 24px;
     }
-    .attende-details{
+    .mpe-new-attende-details{
       flex-basis: 16.5%;
     }
-    .ticket-card{
+    .mpe-new-ticket-card{
       margin: 10px;
     }
   }
   /*--------sm---------*/
   @media (max-width: 768px) {
-    .container {
+    .mpe-new-container {
       max-width: 768px;
       margin: auto;
     }
-    .event h1 {
+    .mpe-new-event h1 {
       font-size: 40px;
     }
-    .event-meta .text-holder p{
+    .mpe-new-event-meta .mpe-new-text-holder p{
       font-size: 16px;
     }
-    .schedule-details{
+    .mpe-new-schedule-details{
       margin-bottom: 50px;
     }
-    .description-Section{
+    .mpe-new-description-Section{
       margin-top: 20px;
     }
-    .description-Section h2{
+    .mpe-new-description-Section h2{
       font-size: 25px;
     }
-    .card-content p {
+    .mpe-new-card-content p {
       line-height: 22px;
     }
-    .ww-card .card-content .card-btn a{
+    .mpe-new-ww-card .mpe-new-card-content .mpe-new-card-btn a{
       font-size: 14px;
     }
-    .ww-card{
+    .mpe-new-ww-card{
       padding: 10px;
     }
-    .card-icon a img {
+    .mpe-new-card-icon a img {
       height: 40px;
       width: auto;
   }
-  .ticket-btns a{
+  .mpe-new-ticket-btns a{
     font-size: 16px;
   }
-  .schedule-details p , 
-  .schedule-details p span{
+  .mpe-new-schedule-details p , 
+  .mpe-new-schedule-details p span{
     font-size: 18px;
   }
-  .speaker {
+  .mpe-new-speaker {
     margin-top: 260px;
   }
-  .ww-card .card-icon{
+  .mpe-new-ww-card .mpe-new-card-icon{
     margin-right: 10px;
   }
-  .ww-social-card ul li a img{
+  .mpe-new-ww-social-card ul li a img{
     height: 30px;
   }
-  .speaker-card .speaker-data h3{
+  .mpe-new-speaker-card .mpe-new-speaker-data h3{
     font-size: 18px;
   }
-  .speaker-card .speaker-image img{
+  .mpe-new-speaker-card .mpe-new-speaker-image img{
     height: 60px;
     width: auto;
     margin-right: 12px;
   }
   
-.attende-details p {
+.mpe-new-attende-details p {
   font-size: 14px;
 }
-  .map-location h2{
+  .mpe-new-map-location h2{
     font-size: 25px;
   }
-  .faq-section h2{
+  .mpe-new-faq-section h2{
     font-size: 25px;
   }
-  .qustions p{
+  .mpe-new-qustions p{
     font-size: 14px;
     text-align: left;
   }
 
-  .faq-section .faqHeader p{
+  .mpe-new-faq-section .mpe-new-faqHeader p{
     font-size: 18px;
     margin: 0px;
     margin-bottom: 20px;
   }
-  .attendee h2 {
+  .mpe-new-attendee h2 {
     font-size: 25px;
   }
-  .related-events h2{
+  .mpe-new-related-events h2{
     font-size: 25px;
   }
-  .related-items-row{
+  .mpe-new-related-items-row{
     padding: 15px;
   }
-  .related-content h3{
+  .mpe-new-related-content h3{
     font-size: 16px;
   }
-  .related-content .events-place{
+  .mpe-new-related-content .mpe-new-events-place{
     font-size: 14px;
   }
-  .related-item-price p{
+  .mpe-new-related-item-price p{
     font-size: 20px;
   }
   }
+
+
   /*--------xsm---------*/
   @media (max-width: 575px) {
-    .container {
+    .mpe-new-container {
       max-width: 575px;
       margin: auto;
     }
-    .event h1{
-      font-size: 28px;
+    .mpe-new-event-meta{
+      flex-direction: column;
     }
-    .event h2{
+    .mpe-new-event h1{
+      font-size: 26px;
+    }
+    .mpe-new-event h2{
       font-size: 18px;
       margin: 0;
     }
-    
-  .event-meta .icon-holder{
+    .mpe-new-faqHeader{
+      width: 100%;
+    }
+    .mpe-new-datepicker input[type=date], .mpe-new-timepicker input[type=time]{
+      width: 92%;
+    }
+  .mpe-new-event-meta .mpe-new-icon-holder{
   margin-right: 5px;
   }
-  .event-meta .text-holder p{
+  .mpe-new-event-meta .mpe-new-text-holder p{
     font-size: 11px;
   }
-  .description-Section{
+  .mpe-new-description-Section{
     flex-direction: column;
   }
-  .event-desctiption{
+  .mpe-new-event-desctiption{
     width: 100%;
   }
-  .description-sidebar{
+  .mpe-new-description-sidebar{
     width: 100%;
   }
-  .ww-social-card ul {
+  .mpe-new-ww-social-card ul {
     padding: 0;
   }
-  .speaker-card{
+  .mpe-new-speaker-card{
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .ticket-info h3{
+  .mpe-new-ticket-info h3{
     font-size: 16px;
   }
-  .ticket-price .price{
+  .mpe-new-ticket-price .mpe-new-price{
     font-size: 24px;
   }
-  .event-desctiption p{
+  .mpe-new-event-desctiption p{
     font-size: 14px;
   }
-  .ww-card{
+  .mpe-new-ww-card{
     flex-direction: column;
   }
-  .card-content{
+  .mpe-new-card-content{
     width: 100%;
     text-align: center;
   }
-  .speaker{
+  .mpe-new-speaker{
     margin-top: 20px;
   }
-  .speaker-card .speaker-data h3{
+  .mpe-new-speaker-card .mpe-new-speaker-data h3{
     text-align: center;
   }
-  .map-location h2 {
+  .mpe-new-map-location h2 {
     font-size: 18px;
   }
-  .faq-section h2{
+  .mpe-new-faq-section h2{
     font-size: 18px;
   }
-  .faq-section .faqHeader p{
+  .mpe-new-faq-section .mpe-new-faqHeader p{
     font-size: 16px;
   }
-  .qustions img {
+  .mpe-new-questions{
+    flex-basis: 100%;
+  }
+  .mpe-new-accordion{
+    font-size: 16px;
+  }
+  .mpe-new-qustions img {
     position: absolute;
     top: 70%;
     right: 10px;
     rotate: 37deg;
   }
-  .attendee h2{
+  .mpe-new-attendee h2{
     font-size: 18px;
   }
-  .attende-details p{
+  .mpe-new-attende-details p{
     font-size: 12px;
   }
-  .related-events h2 {
+  .mpe-new-related-events h2 {
     font-size: 18px;
   }
-  .related-items-row {
+  .mpe-new-related-content h3 {
+    font-size: 14px;
+  }
+  .mpe-new-related-items-row {
     flex-direction: column;
 }
-.related-content {
+.mpe-new-related-content {
   text-align: center;
 }
-.related-item-price {
+.mpe-new-related-item-price {
     text-align: center;
     margin-top: 10px;
 }
 
-.related-item-price .price-category{
+.mpe-new-related-item-price .mpe-new-price-category{
     text-align: center;
 }
-.related-events.container {
+.mpe-new-related-events.mpe-new-container {
   margin-bottom: 50px;
+}
+.mpe-new-ticket-btns .mpe-new-totalPrice{
+  padding: 6px 10px;
 }
 }
   
