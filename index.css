@@ -985,7 +985,7 @@ text-align: right;
 .mpe-new-ticket-btns .mpe-new-totalPrice{
   padding: 8px 10px;
 }
-.input.mpe-new-input-group-field{
+input.mpe-new-input-group-field{
   width: 20px;
 }
 }
