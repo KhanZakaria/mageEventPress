@@ -1,0 +1,957 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;900&display=swap');
+
+  
+  *::before,
+  *::after,
+  body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: var(--font-normal);
+  }
+  ul li {
+    list-style-type: none;
+  }
+  body {
+    background-color: #f5f5f5;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  a:hover {
+    color: var(--btn-hover-color);
+  }
+  
+ 
+/* -------------- buttons design --------------- */
+
+/* .btn-primary{
+    color: var(--color-fill);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary a{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-normal);
+    line-height: 20px;
+}
+.btn-primary :hover{
+    background-color: #6f5af8;
+}
+
+.btn-secondary{
+    color: var(--secondary-color);
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary a{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-normal);
+    line-height: 20px;
+}
+.btn-secondary:hover{
+    background-color: #6f5af8;
+} */
+
+
+
+.event h1{
+  font-family: 'Outfit', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 30px;
+letter-spacing: 2px;
+color: #000000;
+}
+
+.event h2 {
+  font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    text-transform: capitalize;
+    color: #878787;
+    
+}
+.event-meta {
+    display: flex;
+    align-items: center;
+}
+.event-meta .location , .time {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.event-meta .icon-holder{
+    margin-right: 10px;
+}
+
+.event-meta .icon-holder img , .time img{
+    height: 22px;
+    width: 22px;
+    border-radius: 5px;
+}
+
+.event-meta .text-holder p {
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1.5px;
+color: #393332;
+}
+
+
+/*------------ image section -------------*/
+
+.imageSection {
+  display: flex;
+  justify-content: space-between;
+}
+.imageSection .thubnail-big{
+  width: 70%;
+}
+.imageSection .side-thubnail{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.imageSection .thubnail-big img{
+  width: 100%;
+}
+.imageSection .side-thubnail ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  padding-left: 20px;
+}
+.imageSection .side-thubnail img{
+  width: 100%;
+  
+}
+
+
+/*---------------- event description -----------------------*/
+.description-Section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.description-Section h2 {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+
+color: #001A26;
+}
+.event-desctiption{
+  width: 65%;
+  margin-right: 30px;
+}
+.event-desctiption p {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 170%;
+color: #8D8D8D;
+}
+
+.tp-form{ display: block;}
+
+.datepicker input[type=date] , 
+.timepicker input[type=time]{
+  width: 96%;
+border: 1px solid #6046FF;
+border-radius: 5px;
+margin-bottom: 10px;
+padding: 15px;
+background-color: white;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+}
+.tp-form .datepicker input[type=date]{
+color: #6046FF;
+}
+.tp-form .timepicker input[type=time]{
+color: white;
+background-color: #6046FF;
+}
+/* ::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+} */
+
+
+/*----------------------ticket ----------------------*/
+
+
+.ticket{
+  display: block;
+  border:  2px solid #6046FF;
+  border-radius: 5px;
+  width: 100%;
+}
+.ticket-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 3px solid #989898;
+}
+.ticket-card:last-child{
+  border-bottom: none;
+}
+.ticket-info{
+  width: 75%;
+}
+.ticket-info h3{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 22.81px;
+line-height: 22px;
+text-transform: capitalize;
+color: #121212;
+}
+.ticket-info span{
+  font-family: Outfit;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF2424;
+}
+
+.ticket-info p {
+  font-family: Outfit;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #909090;
+
+}
+.ticket-price{
+  width: 25%;
+  text-align: end;
+}
+.ticket-price .price {
+font-family: Outfit;
+font-size: 31px;
+font-weight: 500;
+line-height: 0px;
+letter-spacing: 0em;
+color: #525252;
+margin: 0px;
+}
+
+.buy-ticket button{
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.buy-ticket span{
+  padding-left:15px ;
+  padding-right: 15px;
+}
+
+.ticket-btns{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.ticket-btns a{
+  text-decoration: none;
+  font-family: Outfit;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+.ticket-btns .totalPrice{
+  border: 1px solid #6046FF;
+  padding: 10px 40px;
+}
+
+.ticket-btns .register{
+  border: 1px solid #6046FF;
+  padding: 10px 40px;
+  background-color: #6046FF;
+  color: white;
+
+}
+/*-------------------------- Description sidebar -------------------------*/
+
+.description-sidebar{
+  width: 35%;
+}
+.date-and-time-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.ww-card{
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.04);
+padding: 20px;
+border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.ww-card .card-icon{
+  margin-right: 30px;
+}
+
+.ww-card .card-content .card-btn img{
+  height: 22px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.ww-card .card-content .card-btn button{
+  border: 1px solid #6046FF;
+  padding: 5px 16px;
+  border-radius: 5px;
+  background-color: white;
+}
+.ww-card .card-content .card-btn a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+color: #6046FF;
+
+}
+.ww-social-card {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.04);
+  padding: 20px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+.ww-social-card h2 {
+  text-align: center;
+}
+.ww-social-card ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ww-social-card ul li{
+  padding-right: 10px;
+}
+
+
+.speaker{
+  margin-top: 130px;
+}
+
+.speaker-card{
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.speaker-card .speaker-image img{
+  height: 80px;
+  width: auto;
+  margin-right: 25px;
+}
+.speaker-card .speaker-data h3{
+  font-family: Outfit;
+font-size: 24px;
+font-weight: 500;
+line-height: 22px;
+text-align: left;
+color: #000000;
+}
+
+.speaker-card .speaker-data p {
+  font-family: Outfit;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1.6923084259033203px;
+text-align: left;
+}
+
+
+
+/*------------- Schedule Details -----------------------*/
+
+.schedule-details{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.schedule-details p {
+  font-family: Outfit;
+font-size: 23px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color: #121212;
+line-height: 20px;
+}
+.schedule-details p span {
+  font-family: Outfit;
+font-size: 23px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color: #6046FF;
+}
+
+.schedule-details .detailed-text{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-transform: capitalize;
+color: #909090;
+}
+
+.sechule-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F0FF;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.schedules{
+  display: flex;
+  position: relative;
+}
+.iconEffect::before {
+  content: " ";
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  height: 57px;
+  width: 10px;
+  background: #D9D2FF;
+}
+
+.icon img{
+  margin-top: 15px;
+}
+
+
+/*----------- Map Location --------------*/
+.map-location h2{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+color: #001A26;
+margin-bottom: 20px;
+}
+
+.map iframe{
+  border-radius: 5px;
+}
+
+
+/*----------- Faq Section  --------------*/
+.faq-section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.faqHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+.faq-section h2{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+color: #001A26;
+margin-bottom: 20px;
+}
+
+.faq-section .faqHeader p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #888888;
+text-align: center;
+}
+
+.faqs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.qustions {
+  display: flex;
+  flex-basis: 40%;
+  align-items: center;
+  background: white;
+  margin: 10px;
+  padding-left: 25px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.qustions p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+text-transform: lowercase;
+color: #2C3C4D;
+}
+.qustions img{
+  position: absolute;
+  top: 45%;
+  right: 20px;
+}
+
+
+/*----------- Attendee Section  --------------*/
+
+.attendee{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.attendee h2{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #001A26;
+  margin-bottom: 20px;
+}
+
+
+.attende-container{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.attende-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(81, 81, 81, 0.03);
+  padding: 10px;
+  margin: 5px;
+  flex-basis: 11.5%;
+  border-radius: 5px;
+}
+
+.attende-details img{
+  height: 77px;
+  width: auto;
+}
+
+.attende-details p {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16.7778px;
+line-height: 21px;
+text-transform: capitalize;
+color: #3F4145;
+}
+
+
+
+/*----------- Related Events Section  --------------*/
+.related-events {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.related-events h2{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #001A26;
+  margin-bottom: 20px;
+}
+
+.slider-btn {
+  display: flex;
+  justify-content: end;
+  /* margin-top: 50px; */
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.slider-btn button{
+  margin-left: 10px;
+}
+
+.slider-btn .next-slide , .previous-slide {
+    height: 33px;
+    width: auto;
+    border: none;
+    outline: none;
+    /* color: white; */
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    /* display: block; */
+}
+
+.slider-btn .active {
+  background: #6046FF;
+}
+.slider-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.related-items{
+  background-color: white;
+  border-radius: 5px;
+  width: 32%;
+  box-shadow: 10px 9px 33px rgba(0, 0, 0, 0.03);
+}
+
+.related-items img {
+  width: 100%;
+  height: auto;
+}
+
+.related-items-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.related-content h3{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 0px;
+letter-spacing: 0.02em;
+color: #0F0F0F;
+}
+.related-content .events-place{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 10px;
+letter-spacing: 0.02em;
+color: #808184;
+}
+
+.related-item-price{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.related-item-price p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+letter-spacing: 0.02em;
+color: #6046FF;
+margin: 0;
+}
+
+.related-item-price .price-category{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #6D6D6D;
+text-align: right;
+}
+
+  /*--------Xlg---------*/
+  @media (max-width: 1400px) {}
+
+  /*--------lg---------*/
+  @media (max-width: 1200px) {}
+  /*--------md---------*/
+  @media (max-width: 992px) {
+    .container {
+      max-width: 992px;
+      margin: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .qustions p{
+    font-size: 18px;
+    line-height: 24px;
+    }
+    .attende-details{
+      flex-basis: 16.5%;
+    }
+    .ticket-card{
+      margin: 10px;
+    }
+  }
+  /*--------sm---------*/
+  @media (max-width: 768px) {
+    .container {
+      max-width: 768px;
+      margin: auto;
+    }
+    .event h1 {
+      font-size: 40px;
+    }
+    .event-meta .text-holder p{
+      font-size: 16px;
+    }
+    .schedule-details{
+      margin-bottom: 50px;
+    }
+    .description-Section{
+      margin-top: 20px;
+    }
+    .description-Section h2{
+      font-size: 25px;
+    }
+    .card-content p {
+      line-height: 22px;
+    }
+    .ww-card .card-content .card-btn a{
+      font-size: 14px;
+    }
+    .ww-card{
+      padding: 10px;
+    }
+    .card-icon a img {
+      height: 40px;
+      width: auto;
+  }
+  .ticket-btns a{
+    font-size: 16px;
+  }
+  .schedule-details p , 
+  .schedule-details p span{
+    font-size: 18px;
+  }
+  .speaker {
+    margin-top: 260px;
+  }
+  .ww-card .card-icon{
+    margin-right: 10px;
+  }
+  .ww-social-card ul li a img{
+    height: 30px;
+  }
+  .speaker-card .speaker-data h3{
+    font-size: 18px;
+  }
+  .speaker-card .speaker-image img{
+    height: 60px;
+    width: auto;
+    margin-right: 12px;
+  }
+  
+.attende-details p {
+  font-size: 14px;
+}
+  .map-location h2{
+    font-size: 25px;
+  }
+  .faq-section h2{
+    font-size: 25px;
+  }
+  .qustions p{
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .faq-section .faqHeader p{
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .attendee h2 {
+    font-size: 25px;
+  }
+  .related-events h2{
+    font-size: 25px;
+  }
+  .related-items-row{
+    padding: 15px;
+  }
+  .related-content h3{
+    font-size: 16px;
+  }
+  .related-content .events-place{
+    font-size: 14px;
+  }
+  .related-item-price p{
+    font-size: 20px;
+  }
+  }
+  /*--------xsm---------*/
+  @media (max-width: 575px) {
+    .container {
+      max-width: 575px;
+      margin: auto;
+    }
+    .event h1{
+      font-size: 28px;
+    }
+    .event h2{
+      font-size: 18px;
+      margin: 0;
+    }
+    
+  .event-meta .icon-holder{
+  margin-right: 5px;
+  }
+  .event-meta .text-holder p{
+    font-size: 11px;
+  }
+  .description-Section{
+    flex-direction: column;
+  }
+  .event-desctiption{
+    width: 100%;
+  }
+  .description-sidebar{
+    width: 100%;
+  }
+  .ww-social-card ul {
+    padding: 0;
+  }
+  .speaker-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ticket-info h3{
+    font-size: 16px;
+  }
+  .ticket-price .price{
+    font-size: 24px;
+  }
+  .event-desctiption p{
+    font-size: 14px;
+  }
+  .ww-card{
+    flex-direction: column;
+  }
+  .card-content{
+    width: 100%;
+    text-align: center;
+  }
+  .speaker{
+    margin-top: 20px;
+  }
+  .speaker-card .speaker-data h3{
+    text-align: center;
+  }
+  .map-location h2 {
+    font-size: 18px;
+  }
+  .faq-section h2{
+    font-size: 18px;
+  }
+  .faq-section .faqHeader p{
+    font-size: 16px;
+  }
+  .qustions img {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    rotate: 37deg;
+  }
+  .attendee h2{
+    font-size: 18px;
+  }
+  .attende-details p{
+    font-size: 12px;
+  }
+  .related-events h2 {
+    font-size: 18px;
+  }
+  .related-items-row {
+    flex-direction: column;
+}
+.related-content {
+  text-align: center;
+}
+.related-item-price {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.related-item-price .price-category{
+    text-align: center;
+}
+.related-events.container {
+  margin-bottom: 50px;
+}
+}
+  
