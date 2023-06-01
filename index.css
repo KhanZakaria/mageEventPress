@@ -249,6 +249,9 @@ input.mpe-new-input-group-field {
   width: 50px;
   text-align: center;
 }
+input.mpe-new-input-group-field{
+  appearance :none;
+}
 .impe-new-nput-group-field::-webkit-inner-spin-button,
 .impe-new-nput-group-field ::-webkit-outer-spin-button {
   -webkit-appearance: none;
